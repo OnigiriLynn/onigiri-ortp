@@ -1,0 +1,153 @@
+export const styles = {
+    container: {
+      maxWidth: '500px', 
+      margin: '40px auto',
+      padding: '24px',
+      borderRadius: '8px',
+      boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+      backgroundColor: '#ffffff',
+      fontFamily: 'Arial, sans-serif',
+    },
+    heading: {
+      textAlign: 'center',
+      marginBottom: '24px',
+      color: '#333333',
+    },
+    form: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '16px',
+    },
+    formGroup: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '6px',
+    },
+    label: {
+      fontWeight: 'bold',
+      fontSize: '14px',
+      color: '#555555',
+    },
+    select: {
+      padding: '10px',
+      borderRadius: '4px',
+      border: '1px solid #ccc',
+      fontSize: '16px',
+    },
+    input: {
+      padding: '10px',
+      borderRadius: '4px',
+      border: '1px solid #ccc',
+      fontSize: '16px',
+    },
+    button: {
+      padding: '12px',
+      backgroundColor: '#007bff',
+      color: '#ffffff',
+      border: 'none',
+      borderRadius: '4px',
+      fontSize: '16px',
+      cursor: 'pointer',
+      fontWeight: 'bold',
+      marginTop: '8px',
+    },
+    error: {
+      color: '#dc3545',
+      fontSize: '12px',
+      marginTop: '2px',
+    },
+    // --- New Styles for Results UI ---
+    resultsWrapper: {
+      marginTop: '32px',
+      borderTop: '2px dashed #eee',
+      paddingTop: '24px',
+    },
+    resultsHeading: {
+      fontSize: '18px',
+      color: '#333333',
+      marginBottom: '16px',
+    },
+    trainCard: {
+      border: '1px solid #e0e0e0',
+      borderRadius: '6px',
+      padding: '16px',
+      marginBottom: '12px',
+      display: 'flex',
+      justifyContent: 'between',
+      alignItems: 'center',
+      backgroundColor: '#fdfdfd',
+    },
+    trainInfo: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '4px',
+      flex: 1,
+    },
+    trainName: {
+      fontWeight: 'bold',
+      color: '#007bff',
+      fontSize: '15px',
+    },
+    routeDetails: {
+      fontSize: '14px',
+      color: '#555555',
+    },
+    priceTag: {
+      fontSize: '20px',
+      fontWeight: 'bold',
+      color: '#28a745',
+      textAlign: 'right',
+    },
+    bookBtn: {
+      padding: '6px 12px',
+      backgroundColor: '#28a745',
+      color: '#fff',
+      border: 'none',
+      borderRadius: '4px',
+      fontSize: '13px',
+      cursor: 'pointer',
+      marginTop: '4px',
+    },
+    noResults: {
+      textAlign: 'center',
+      color: '#777',
+      padding: '16px',
+      backgroundColor: '#f9f9f9',
+      borderRadius: '4px',
+    },
+    modalOverlay: {
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Dark transparent backdrop
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        zIndex: 2000, // Keeps it stacked safely above everything else
+        backdropFilter: 'blur(4px)', // Modern background blur layer
+      },
+      modalContentBox: {
+        backgroundColor: '#ffffff',
+        padding: '24px',
+        borderRadius: '8px',
+        boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
+        position: 'relative',
+        maxWidth: '500px',
+        width: '100%',
+        maxHeight: '100vh', // Prevents screen overflow
+        overflowY: 'auto', // Adds scrollbar if seat rows are long
+      },
+      modalCloseBtn: {
+        position: 'absolute',
+        top: '0px',
+        right: '16px',
+        background: 'none',
+        border: 'none',
+        fontSize: '24px',
+        cursor: 'pointer',
+        color: '#888888',
+        zIndex: 10,
+      },
+};
